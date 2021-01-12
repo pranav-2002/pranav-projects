@@ -1,7 +1,0 @@
-.
-.
-.
-Washington University Courses Database 
-
-In this project I have parsed data from an XML file using python and then added the data into a Sqlite Database.
-Everything is done by using Python3.
