@@ -6,7 +6,7 @@ import re
 import sqlite3
 
 # sqlite queries
-conn = sqlite3.connect("VIT.db")
+conn = sqlite3.connect("VIT_Courses.db")
 c = conn.cursor()
 
 c.execute("""CREATE TABLE IF NOT EXISTS VIT(
