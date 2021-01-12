@@ -7,6 +7,8 @@ Hey all! This is a project in which I used my college's (VIT) FULLY FLEXIBLE CRE
 which has information about all the courses and some other information.
 
 Remeber to put all the files in a single folder and you can change the file locations wherever necessary.
+
+Make sure to comment out the SQLite INSERT statements after inserting into the DB so that you don't end up creating copies.
 .
 .
 .
