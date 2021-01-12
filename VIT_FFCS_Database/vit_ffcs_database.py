@@ -1,7 +1,6 @@
 # VIT UNIVERSITY ALL COURSES(FFCS) DATABASE
 
-''' NOTE: I HAVE COMMENTED SOME OF THE SQLITE EXECUTE SATAEMENTS, 
-YOU CAN REMOVE THEM ACCORDINGLY(FOR ADDING DATA INTO THE DATABASE) '''
+''' NOTE: YOU CAN EDIT THE FILE LOCATIONS WHEREVER NECESSARY '''
 
 import re
 import sqlite3
@@ -87,11 +86,11 @@ for lines in fname:
         faculty1 = source1[4]
         school1 = source1[5]
         source1_dep = "BIOTECHNOLOGY"
-        #c.execute(""" INSERT INTO BIOTECH (Subject,Type,EID,Faculty,School)
-                        #VALUES (?,?,?,?,?)""", (sub1, type1, eid1, faculty1, school1))
+        c.execute(""" INSERT INTO BIOTECH (Subject,Type,EID,Faculty,School)
+                        VALUES (?,?,?,?,?)""", (sub1, type1, eid1, faculty1, school1))
 
-        #c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
-                    #VALUES (?,?,?,?,?,?)""", (source1_dep, sub1, type1, eid1, faculty1, school1))
+        c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
+                    VALUES (?,?,?,?,?,?)""", (source1_dep, sub1, type1, eid1, faculty1, school1))
 
     # Source2 (Biotech2)
     if not len(source2) <= 0:
@@ -104,11 +103,11 @@ for lines in fname:
         faculty2 = source2[4]
         school2 = source2[5]
         source2_dep = "BIOTECHNOLOGY"
-        #c.execute(""" INSERT INTO BIOTECH (Subject,Type,EID,Faculty,School)
-                        #VALUES (?,?,?,?,?)""", (sub2, type2, eid2, faculty2, school2))
+        c.execute(""" INSERT INTO BIOTECH (Subject,Type,EID,Faculty,School)
+                        VALUES (?,?,?,?,?)""", (sub2, type2, eid2, faculty2, school2))
 
-        #c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
-            #VALUES (?,?,?,?,?,?)""", (source2_dep, sub2, type2, eid2, faculty2, school2))
+        c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
+            VALUES (?,?,?,?,?,?)""", (source2_dep, sub2, type2, eid2, faculty2, school2))
 
     # CSE1
     if not len(cse1) <= 0:
@@ -121,11 +120,11 @@ for lines in fname:
         cse1_faculty = cse1[4]
         cse1_school = cse1[5]
         cse_dep = "COMPUTER SCIENCE"
-        #c.execute(""" INSERT INTO CSE (Subject,Type,EID,Faculty,School)
-                #VALUES (?,?,?,?,?)""", (cse1_sub, cse1_type, cse1_eid, cse1_faculty, cse1_school))
+        c.execute(""" INSERT INTO CSE (Subject,Type,EID,Faculty,School)
+                VALUES (?,?,?,?,?)""", (cse1_sub, cse1_type, cse1_eid, cse1_faculty, cse1_school))
 
-        #c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
-             #VALUES (?,?,?,?,?,?)""", (cse_dep, cse1_sub, cse1_type, cse1_eid, cse1_faculty, cse1_school))
+        c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
+             VALUES (?,?,?,?,?,?)""", (cse_dep, cse1_sub, cse1_type, cse1_eid, cse1_faculty, cse1_school))
 
     # ECE
     if not len(ece) <= 0:
@@ -138,11 +137,11 @@ for lines in fname:
         ece_faculty = ece[4]
         ece_school = ece[5]
         ece_dep = "ELECTRONICS AND COMMUNICATION ENGINEERING "
-        #c.execute(""" INSERT INTO ECE (Subject, Type, EID, Faculty, School)
-                #VALUES (?,?,?,?,?)""", (ece_sub, ece_type, ece_eid, ece_faculty, ece_school))
+        c.execute(""" INSERT INTO ECE (Subject, Type, EID, Faculty, School)
+                VALUES (?,?,?,?,?)""", (ece_sub, ece_type, ece_eid, ece_faculty, ece_school))
 
-        #c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject, Type, EID, Faculty, School)
-            #VALUES (?,?,?,?,?,?)""", (ece_dep, ece_sub, ece_type, ece_eid, ece_faculty, ece_school))
+        c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject, Type, EID, Faculty, School)
+            VALUES (?,?,?,?,?,?)""", (ece_dep, ece_sub, ece_type, ece_eid, ece_faculty, ece_school))
 
     # EEE
     if not len(eee) <= 0:
@@ -155,10 +154,10 @@ for lines in fname:
         eee_faculty = eee[4]
         eee_school = eee[5]
         eee_dep = "ELECTRICAL AND ELECTRONICS ENGINEERING"
-        #c.execute(""" INSERT INTO EEE (Subject, Type, EID, Faculty, School)
+        c.execute(""" INSERT INTO EEE (Subject, Type, EID, Faculty, School)
                 #VALUES (?,?,?,?,?) """, (eee_sub, eee_type, eee_eid, eee_faculty, eee_school))
 
-        #c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject, Type, EID, Faculty, School)
+        c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject, Type, EID, Faculty, School)
             #VALUES (?,?,?,?,?,?) """, (eee_dep,eee_sub, eee_type, eee_eid, eee_faculty, eee_school))
 
     # IT
@@ -172,11 +171,11 @@ for lines in fname:
         it_faculty = it[4]
         it_school = it[5]
         dep_it = "INFORMATION TECHNOLOGY"
-        #c.execute(""" INSERT INTO IT (Subject, Type, EID, Faculty, School)
+        c.execute(""" INSERT INTO IT (Subject, Type, EID, Faculty, School)
                 #VALUES (?,?,?,?,?)""", (it_sub, it_type, it_eid, it_faculty, it_school))
 
-        #c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
-         #VALUES (?,?,?,?,?,?)""", (dep_it, it_sub, it_type, it_eid, it_faculty, it_school))
+        c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
+         VALUES (?,?,?,?,?,?)""", (dep_it, it_sub, it_type, it_eid, it_faculty, it_school))
 
     # Mechanical
     if not len(mech) <= 0:
@@ -189,11 +188,11 @@ for lines in fname:
         mech_faculty = mech[4]
         mech_school = mech[5]
         dep_mech = "MECHANICAL"
-        #c.execute(""" INSERT INTO MECHANICAL (Subject,Type,EID,Faculty,School)
-                #VALUES (?,?,?,?,?)""", (mech_sub, mech_type, mech_eid, mech_faculty, mech_school))
+        c.execute(""" INSERT INTO MECHANICAL (Subject,Type,EID,Faculty,School)
+                VALUES (?,?,?,?,?)""", (mech_sub, mech_type, mech_eid, mech_faculty, mech_school))
 
-        #c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
-                #VALUES (?,?,?,?,?,?)""", (dep_mech, mech_sub, mech_type, mech_eid, mech_faculty, mech_school))
+        c.execute(""" INSERT INTO VIT (DEPARTMENT,Subject,Type,EID,Faculty,School)
+                VALUES (?,?,?,?,?,?)""", (dep_mech, mech_sub, mech_type, mech_eid, mech_faculty, mech_school))
 
 conn.commit()
 conn.close()
