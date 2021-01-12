@@ -1,2 +1,2 @@
 # pranav-projects
-My Projects
+My Personal Projects
