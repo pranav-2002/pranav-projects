@@ -1,2 +1,2 @@
 # pranav-projects
-My Personal Projects
+Hey ALL! You can have a look at my Personal Projects here.
