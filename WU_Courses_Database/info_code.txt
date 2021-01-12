@@ -1,0 +1,19 @@
+.
+.
+.
+.
+.
+.
+This is my project which includes parsing of an XML file and then adding the data into SQLite Database using Python3
+
+I have created an additional text file for creating a copy of the data in a simple manner and then extracting data from it, 
+please don't get confused over this.
+
+Make sure to comment out the SQLite INSERT statements after inserting into the DB so that you don't end up creating copies.
+.
+.
+.
+.
+.
+.
+Thank You !!
