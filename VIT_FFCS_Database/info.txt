@@ -1,0 +1,14 @@
+.
+.
+.
+.
+.
+Hey all! This is a project in which I used my college's (VIT) FULLY FLEXIBLE CREDIT SYSTEM(FFCS) to create a database in Sqlite using Python3,
+which has information about all the courses and some other information.
+
+Remeber to put all the files in a single folder and you can change the file locations wherever necessary.
+.
+.
+.
+.
+Thank You!
