@@ -1,0 +1,20 @@
+.
+.
+.
+.
+.
+.
+.
+So in this project, I extract certain information from a text file regardig the investments which have been 
+done in certain shares during a course of time and the info to analyse some data using Python3
+
+The data has been extracted from the text file using Regex.
+The regex code might seem a little ugly and can be altered according to you use
+
+.
+.
+.
+.
+.
+.
+Thank You!!
