@@ -1,0 +1,32 @@
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+This project basically deals with extracting data from multiple XML files consisting of certain data of COVID-19 during the period 2020-2021
+The CASES, DEATHS, INFECTION RATES of INDIA & USA have been compared and graphs have been plotted 
+A Databse is created using SQLITE and the whole project is done using Python3 and its various libraries.
+
+The plt.show statements in the Python Code have been commented, one can remove the comment and see one plot at a time(sub plots have not been created)
+A code has been written which takes the user input and returns pirticular data.
+
+Remember to keep all the files in a single folder.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Thank You !
