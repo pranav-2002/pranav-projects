@@ -8,7 +8,18 @@
 .
 .
 .
-Hey,
+HEY ALL,
 So in this project I recreate the first page of Netflix India using HTML and CSS.
 Make sure you download all the images and mention the paths correctly.
 This might not be 100% perfect but it looks quite similar.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+THANK YOU!
