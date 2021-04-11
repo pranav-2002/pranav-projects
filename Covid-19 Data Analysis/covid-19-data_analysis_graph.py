@@ -251,6 +251,7 @@ conn.close()
 pos1 = 0
 pos2 = 0
 pos3 = 0
+user_weeks_list = []
 
 user_inp1 = input("Enter Year and Week (yyyy-ww): ")
 user_inp2 = input("Enter CASES/DEATHS/RATE: ").upper()
@@ -259,17 +260,72 @@ if user_inp2 == "CASES":
     for i in ind_weeks_list:
         pos1 = pos1+1
         if i == user_inp1:
+            ans = ind_cases_list[pos1-1]
             print("Number of CASES during", user_inp1, "=", ind_cases_list[pos1-1])
+
+            # GRAPHS
+            user_weeks = user_inp1.split("-")
+            user_weeks = int(user_weeks[1])
+            for w in range(1, user_weeks+1):
+                user_weeks_list.append(w)
+            ind_cases_list.reverse()
+            cases_index = ind_cases_list.index(ans)
+            cases_range = ind_cases_list[:cases_index+1]
+
+            plt.plot(user_weeks_list, cases_range)
+            plt.title("COVID-19: CASES GRAPH")
+            plt.xlabel("WEEKS")
+            plt.ylabel("CASES")
+            plt.show()
+            plt.close()
+
 elif user_inp2 == "DEATHS":
     for j in ind_weeks_list:
         pos2 = pos2+1
         if j == user_inp1:
+            ans = ind_deaths_list[pos2-1]
             print("Number of DEATHS during", user_inp1, "=", ind_deaths_list[pos2-1])
+
+            # GRAPHS
+            user_weeks = user_inp1.split("-")
+            user_weeks = int(user_weeks[1])
+            for w in range(1, user_weeks + 1):
+                user_weeks_list.append(w)
+            ind_deaths_list.reverse()
+            deaths_index = ind_deaths_list.index(ans)
+            deaths_range = ind_deaths_list[:deaths_index + 1]
+
+            plt.plot(user_weeks_list, deaths_range)
+            plt.title("COVID-19: DEATHS GRAPH")
+            plt.xlabel("WEEKS")
+            plt.ylabel("DEATHS")
+            plt.show()
+            plt.close()
+
 elif user_inp2 == "RATE":
     for k in ind_weeks_list:
         pos3 = pos3 + 1
         if k == user_inp1:
+            ans = ind_rates_list[pos3-1]
             print("INFECTION RATE during", user_inp1, "=", ind_rates_list[pos3-1])
+
+            # GRAPHS
+            user_weeks = user_inp1.split("-")
+            user_weeks = int(user_weeks[1])
+            for w in range(1, user_weeks + 1):
+                user_weeks_list.append(w)
+            ind_rates_list.reverse()
+            rates_index = ind_rates_list.index(ans)
+            rates_range = ind_rates_list[:rates_index + 1]
+
+            plt.plot(user_weeks_list, rates_range)
+            plt.title("COVID-19: INFECTION RATE GRAPH")
+            plt.xlabel("WEEKS")
+            plt.ylabel("INFECTION RATE")
+            plt.show()
+            plt.close()
+else:
+    print("PLEASE ENTER A VALID INPUT")
 
 
 # LISTS FOR GRAPH PLOTTING
