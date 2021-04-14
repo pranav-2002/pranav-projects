@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+#main-head{
+    height: 72px;
+    background-color: #48556A;;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 0%);
+}
+
+#logo{
+    width: 108px;
+    position: relative;
+    top: 17px;
+    left: 42px;
+}
+
+#lang{
+    color: #e6e6e6;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    top: 2px;
+    right: 143px;
+}
+
+#sign-in{
+    color: #e6e6e6;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    top: 2px;
+    right: 50px;
+    font-weight: bold;
+}
+
+.welcome-view{
+    height: 480px;
+    background-image: url('../images/first_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.welcome-view h1{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    top: 54px;
+    left: 66px;
+}
+
+.welcome-view h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    top: 140px;
+    left: 67px;
+    position: absolute;
+    font-size: 20px;
+}
+
+#trial{
+    position: absolute;
+    color: white;
+    border: 1px solid #0f79af;
+    background-color: #0f79af;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    top: 245px;
+    left: 66px;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    width: 19%;
+    height: 6%;
+}
+
+.tv-view{
+    height: 480px;
+    background-image: url('../images/second_tv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.tv-view h1{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    top: 53px;
+    right: 260px;
+}
+
+.tv-view h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 139px;
+    right: 142px;
+}
+
+#get-started{
+    position: absolute;
+    color: white;
+    border: 1px solid #0f79af;
+    background-color: #0f79af;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    top: 280px;
+    right: 331px;
+    border-radius: 3px;
+    padding: 13px;
+    text-align: center;
+    width: 18.5%;
+    height: 6%;
+}
+
+.living-room-view{
+    height: 480px;
+    background-image: url('../images/room_third.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.living-room-view h1{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    top: 12px;
+    left: 65px;
+}
+
+.living-room-view h2{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    top: 55px;
+    left: 65px;
+}
+
+.living-room-view h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+    left: 66px;
+}
+
+#get-started-2{
+    position: absolute;
+    color: white;
+    border: 1px solid #0f79af;
+    background-color: #0f79af;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    top: 295px;
+    left: 67px;
+    border-radius: 3px;
+    padding: 13px;
+    text-align: center;
+    width: 18.5%;
+    height: 6%;
+}
+
+.living-room-view p{
+    position: absolute;
+    color: white;
+    font-size: 15.5px;
+    font-family: 'Mukta', sans-serif;
+    top: 381px;
+    left: 67px;
+}
+
+.fire-stick-view{
+    height: 480px;
+    background-image: url('../images/fstick_fourth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.fire-stick-view h1{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    top: 35px;
+    right: 134px;
+}
+
+.fire-stick-view h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 127px;
+    right: 142px;
+}
+
+#get-started-3{
+    position: absolute;
+    color: white;
+    border: 1px solid #0f79af;
+    background-color: #0f79af;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    top: 300px;
+    right: 344px;
+    border-radius: 3px;
+    padding: 13px;
+    text-align: center;
+    width: 18.5%;
+    height: 6%;
+}
+
+.white-bg-view{
+    height: 520px;
+    background-color: white;
+    position: relative;
+}
+
+#watch-anywhere-img{
+    position: absolute;
+    top: 55px;
+    left: 120px;
+}
+
+.white-bg-view h1{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    bottom: 60px;
+    left: 134px;
+}
+
+.white-bg-view h3{
+    color: black;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    bottom: -31px;
+    left: 114px;
+    font-size: 20px;
+}
+
+#download-go-img{
+    position: absolute;
+    top: 55px;
+    left: 560px;
+}
+
+#sub_head1{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    bottom: 60px;
+    left: 560px;
+}
+
+#sub_head2{
+    color: black;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    bottom: -30px;
+    left: 553px;
+    font-size: 20px;
+}
+
+#data-saver-img{
+    position: absolute;
+    top: 55px;
+    right: 112px; 
+}
+
+#sub_head3{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    bottom: 60px;
+    right: 170px;
+    text-align: right;
+}
+
+#sub_head4{
+    color: black;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    bottom: 5px;
+    right: 92px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.fam-friendly-view{
+    height: 480px;
+    background-image: url('../images/bottom_fifth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 34px;
+}
+
+.fam-friendly-view h1{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    top: 32px;
+    left: 65px;
+}
+
+.fam-friendly-view h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 124px;
+    left: 66px;
+}
+
+#get-started-4{
+    position: absolute;
+    color: white;
+    border: 1px solid #0f79af;
+    background-color: #0f79af;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    top: 295px;
+    left: 67px;
+    border-radius: 3px;
+    padding: 13px;
+    text-align: center;
+    width: 18.5%;
+    height: 6%;
+}
+
+.main-footer{
+    height: 135px;
+    position: relative;
+    background-color: #222;
+    top: 34px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+}
+
+#footer-logo{
+    position: absolute;
+    top: 24px;
+    left: 648px;
+}
+
+#links{
+    position: absolute;
+    top: 58px;
+    left: 373px;
+    opacity: 0.9;
+}
+
+#links a{
+    color: #0f79af;
+}
+
+#link1{
+    margin: 5px;
+}
+
+#link2{
+    margin: 5px;
+}
+
+#link3{
+    margin: 4px;
+}
+
+#copyright{
+    margin: 5px;
+    color: #b3b3b3;
+}
